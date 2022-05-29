@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML tables</title>
+</head>
+<body>
+    <!-- basic tables structure -->
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>Student Name</td>
+            <td>Score</td>
+        </tr>
+        <tr bgcolor="green">
+            <td>124</td>
+            <td>Felix</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>125</td>
+            <td>sola</td>
+            <td>80</td>
+        </tr>
+        <tr bgcolor="brown">
+            <td>126</td>
+            <td>mercy</td>
+            <td>45</td>
+        </tr>
+    </table>
+    <br/> <br/>
+
+    <table border="1" width="300">
+        <cite>Table with cells spanning multiple columns</cite>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th colspan="2">Score</th>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td>test 1</td>
+            <td>test 2</td>
+        </tr>
+        <tr>
+            <td>SOLA</td>
+            <td>English</td>
+            <td>70%</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>English</td>
+            <td>65%</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <table border="2" style="color: brown;" align="center">
+       <center> 
+           <cite>Table with cells spanning multiple rows</cite>
+       </center>
+        <tr>
+            <td>Day</td>
+            <td colspan="3">Time/Event</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">SUN</td>
+            <td>10 - 11 / Eat </td>
+            <td>11 - 1 / Work </td>
+            <td>1 - 2 / Read</td>
+        
+        </tr>
+        <tr>
+        
+            <td>2 - 4 / Play </td>
+            <td>4 - 6 / Rest</td>
+            <td>6 - 8 / Movie</td>
+        </tr>  
+        <tr>
+            <td rowspan="2">Mon</td>
+            <td>10 - 11 / Eat </td>
+            <td>11 - 1 / Work </td>
+            <td>1 - 2 / Read</td>
+        
+        </tr>
+        <tr>
+        
+            <td>2 - 4 / Play </td>
+            <td>4 - 6 / Rest</td>
+            <td>6 - 8 / Movie</td>
+        </tr>
+
+    </table>
+
+    <br/><br/>
+    <!-- semantic tags used in tables-->
+    <table>
+        <cite></cite>
+    </table>
+
+</body>
+</html>
